@@ -1,50 +1,93 @@
-# qqhkx2027
+<div align="center">
+  <img src="./assets/qiuqiu.jpg" width="136" alt="秋秋在花园里" />
 
-## 秋秋工具箱
+  # 秋秋很开心
 
-围绕「秋秋很开心」内容创作流程整理的一组可复用工具与 Skills。
+  ### 把日常里真正好用的东西，做成下次还能继续用的小工具
 
-> A small open-source toolkit for writing, formatting, visual production, knowledge capture, and personal workbench building.
+  内容创作 · AI 工具 · 个人知识库
+</div>
 
-## 创作闭环
+> 你好，我是秋秋。这里不是程序员作品集，而是一个普通内容创作者的“省事工具箱”。
+>
+> 写完一篇文章、做一张封面、整理一堆资料、搭一个工作台……能少从零来一次，就少折腾一次。
 
-```text
-写文章 → 公众号排版 → 生成封面 → 制作信息图
-   ↓                         ↓
-知识沉淀 ←────────────── 日常工作台
+## 先从这里逛
+
+| 你现在想解决什么？ | 先打开这个 |
+| --- | --- |
+| 一篇 Markdown，怎么排成公众号好看的样子？ | [秋秋公众号编辑器 →](https://github.com/qqhkx2027/qiuqiu-wechat-editor) |
+| 不会设计，怎么写出靠谱的封面提示词？ | [秋秋封面提示词 →](https://github.com/qqhkx2027/qiuqiu-cover-prompt) |
+| 一堆文章和资料，怎么慢慢沉淀下来？ | [秋秋 Obsidian 笔记助手 →](https://github.com/qqhkx2027/qiuqiu-obsidian-notes) |
+
+## 一篇内容，怎么变成能反复用的东西？
+
+```mermaid
+flowchart LR
+    A[✍️ 写下文章] --> B[📰 排成公众号]
+    B --> C[🖼️ 做好封面]
+    C --> D[📊 整理成信息图]
+    D --> E[🗂️ 沉淀成笔记]
+    E --> F[🧩 放进工作台]
 ```
 
-## 项目导航
+这就是我做这些项目的原因：把一次性的麻烦，慢慢变成以后能复用的方法。
 
-| 项目 | 用途 | 类型 | 在线 / 仓库 |
-| --- | --- | --- | --- |
-| [qiuqiu-wechat-editor](https://github.com/qqhkx2027/qiuqiu-wechat-editor) | Markdown 转公众号排版，支持主题、预览与复制 | Web 应用 | [GitHub](https://github.com/qqhkx2027/qiuqiu-wechat-editor) |
-| [qiuqiu-cover-prompt](https://github.com/qqhkx2027/qiuqiu-cover-prompt) | 按平台和构图模式生成封面提示词 | Skill | [GitHub](https://github.com/qqhkx2027/qiuqiu-cover-prompt) |
-| [qiuqiu-infographic-maker](https://github.com/qqhkx2027/qiuqiu-infographic-maker) | 将文章整理成康奈尔或咨询风信息图方案 | Skill | [GitHub](https://github.com/qqhkx2027/qiuqiu-infographic-maker) |
-| [qiuqiu-obsidian-notes](https://github.com/qqhkx2027/qiuqiu-obsidian-notes) | 将内容沉淀为结构化、可复用的 Obsidian 笔记 | Skill | [GitHub](https://github.com/qqhkx2027/qiuqiu-obsidian-notes) |
-| [qiuqiu-workbench-builder](https://github.com/qqhkx2027/qiuqiu-workbench-builder) | 从需求生成可离线、可备份、可分享的个人工作台 | Skill / HTML | [GitHub](https://github.com/qqhkx2027/qiuqiu-workbench-builder) |
-| [qiuqiu-document-workshop](https://github.com/qqhkx2027/qiuqiu-document-workshop) | 身份证等证件裁剪、校正并合并为 PDF | Web / Python | [GitHub](https://github.com/qqhkx2027/qiuqiu-document-workshop) |
+## 秋秋的小工具箱
 
-## 推荐使用顺序
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📰 公众号编辑器</h3>
+      <p>把 Markdown 文章排成适合公众号发布的样子。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-wechat-editor">打开项目 →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🖼️ 封面提示词</h3>
+      <p>把文章和参考图整理成更具体、更好用的封面提示词。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-cover-prompt">打开项目 →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 信息图制作器</h3>
+      <p>把复杂内容梳理成更清楚的信息图方案。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-infographic-maker">打开项目 →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 Obsidian 笔记助手</h3>
+      <p>从第一次打开 Obsidian 开始，慢慢搭好自己的笔记系统。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-obsidian-notes">打开项目 →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧩 工作台搭建器</h3>
+      <p>把内容排期、日常记录或习惯打卡，搭成自己的小工作台。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-workbench-builder">打开项目 →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🪪 证件工坊</h3>
+      <p>在浏览器里裁剪证件照，并排成可打印的 A4 PDF。</p>
+      <a href="https://github.com/qqhkx2027/qiuqiu-document-workshop">打开项目 →</a>
+    </td>
+  </tr>
+</table>
 
-1. 用 `qiuqiu-wechat-editor` 整理 Markdown 与公众号排版。
-2. 用 `qiuqiu-cover-prompt` 为不同平台生成封面提示词。
-3. 用 `qiuqiu-infographic-maker` 把复杂内容转成信息图。
-4. 用 `qiuqiu-obsidian-notes` 将方法和结论沉淀到知识库。
-5. 用 `qiuqiu-workbench-builder` 管理长期项目、习惯与内容生产。
-6. 用 `qiuqiu-document-workshop` 处理证件和 PDF 等实用文件。
+## 第一次来，推荐这样用
 
-## 设计原则
+1. 从一篇已经写好的文章开始，试试 [公众号编辑器](https://github.com/qqhkx2027/qiuqiu-wechat-editor)。
+2. 再用 [封面提示词](https://github.com/qqhkx2027/qiuqiu-cover-prompt)，给同一篇文章准备公众号、小红书、抖音三种封面方向。
+3. 最后把这次好用的提示词和方法，放进 [Obsidian 笔记助手](https://github.com/qqhkx2027/qiuqiu-obsidian-notes)。
 
-- 先确认目标和输出格式，再执行生成或转换。
-- 重要内容可检查、可恢复，不静默覆盖用户文件。
-- 技能目录保持自包含，校验脚本不依赖某个用户的本机路径。
-- Web 项目优先提供在线预览；本地工具提供清晰的启动方式。
+不用一次把六个都学会。先让一个工具真的替你省下半小时，就够了。
 
-## 本地目录
+## 我相信的事
 
-在本地 Obsidian 工作区中，项目对应于 [`05-Agents/`](../) 下的同名目录。
+> 不用先成为程序员，才配拥有自己的工具。
 
-## 许可
+技术最有用的时候，不是让人看起来多厉害，而是把重复、混乱和“下次又要从头来”的麻烦，悄悄拿走一点。
 
-各项目分别使用 MIT License；具体以对应仓库根目录的 `LICENSE` 为准。
+---
+
+<sub>这些项目分别使用 MIT License；具体以各仓库根目录的 LICENSE 为准。</sub>
